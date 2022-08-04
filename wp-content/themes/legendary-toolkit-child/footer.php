@@ -9,14 +9,15 @@
  * @package WP_Bootstrap_Starter
  */
 ?>
-<?php $title = get_field('cta_content', 'option');
-      $content = get_field('cta_image', 'option');
-      $button = get_field('cta_button', 'option');
-?>
+
 <?php if (!is_page_template( 'blank-page.php' ) && !is_page_template( 'blank-page-with-container.php' )) : ?>
 			</div><!-- .row -->
 		</div><!-- .container -->
 		<section class="cta-section">
+<?php $title = get_field('cta_content', 'option');
+$content = get_field('cta_image', 'option');
+$button = get_field('cta_button', 'option');
+?>
 			<div class="container">
 				<div class="cta-content-wrap text-center">
 					<div class="cta-title">
