@@ -50,4 +50,44 @@
         </div>
     </div>
 </section>
+<section class="meet-mariel-section">
+    <div class="container">
+        <div class="mariel-content-wrap d-flex">
+            <div class="mariel-image">
+                <?php $client_image = get_field('client_image');
+                    if($hero_content){ ?>
+                     <img src="<?php echo $client_image['url']; ?>" alt="<?php echo $client_image['alt']; ?>">
+                    <?php  }
+                    ?>
+            </div>
+            <div class="mariel-content">
+                <div class="mariel-title">
+                    <?php $mariel_title = get_field('mariel_title');
+                        if($mariel_title){ ?>
+                            <h1><?php echo $mariel_title; ?></h1>
+                        <?php  }
+                    ?>
+                </div>
+                <div class="mariel-content">
+                    <?php $mariel_content = get_field('mariel_content');
+                        if($mariel_content){ ?>
+                            <?php echo $mariel_content; ?>
+                        <?php  }
+                    ?>
+                </div>
+                <div class="mariel-btn">
+                <?php 
+                    $link = get_field('mariel_button');
+                    if( $link ): 
+                        $link_url = $link['url'];
+                        $link_title = $link['title'];
+                        $link_target = $link['target'] ? $link['target'] : '_self';
+                        ?>
+                        <a class="btn-blue" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
+                <?php endif; ?>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <?php get_footer(); ?>
