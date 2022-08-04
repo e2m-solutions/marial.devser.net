@@ -276,6 +276,6 @@ border:  solid 1px #D7B794;
     object-fit: cover;
 }
 .testimonial-section{
-    background: #455775;
+    background: rgba(69, 87, 117, 0.08);
     padding: 60px 0;
 }

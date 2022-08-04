@@ -135,7 +135,7 @@
 </section>
 <section class="testimonial-section">
     <div class="container">
-        <div class="testimonial-wrap">
+        <div class="testimonial-wrap text-center">
             
             <?php if(have_rows('testimonial_repeater')) {
                 while(have_rows('testimonial_repeater')){
