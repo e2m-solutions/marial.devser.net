@@ -243,13 +243,14 @@ p:last-child{
 }
 .mariel-content:before{
 content: "";
-position: relative;
+position: absolute;
 left: 0;
 right: 0;
 top: 0;
 bottom: 0;
 background: url('../../../wp-content/uploads/2022/08/background-before.svg');
 background-repeat: no-repeat;
+width: 100%;
 }
 .mariel-content-wrap{
     justify-content: flex-end;
