@@ -19,7 +19,7 @@
 					<div class="cta-title">
 						<?php $cta_title = get_field('cta_title', 'option');
 							if($cta_title){ ?>
-								<h1><?php echo $cta_title; ?></h1>
+								<h3><?php echo $cta_title; ?></h3>
 							<?php  }
 						?>
 					</div>
