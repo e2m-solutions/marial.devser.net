@@ -264,6 +264,7 @@ width: 100%;
     left: 0;
     top: 44px;
     width: 51%;
+    z-index: 1;
 }
 .mariel-image img{
     border: solid 10px #ffff;
