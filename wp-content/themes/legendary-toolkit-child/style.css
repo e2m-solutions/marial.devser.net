@@ -189,6 +189,18 @@ p:last-child{
     background: #455775;
     padding: 140px 0;
 }
-.cta-title h3, .cta-content p{
+.cta-title h3{
     color: #ffff;
+}
+.cta-content{
+    max-width: 1074px;
+    margin: 0 auto;
+}
+.cta-content p {
+    color: #ffff;
+    font-size: 24px;
+    line-height: 1.8;
+}
+.cta-button {
+    margin-top: 35px;
 }
