@@ -189,3 +189,6 @@ p:last-child{
     background: #455775;
     padding: 140px 0;
 }
+.cta-title h3, .cta-content p{
+    color: #ffff;
+}
