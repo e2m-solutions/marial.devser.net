@@ -25,10 +25,84 @@ body{
 #content {
     margin-top: 0 !important;
 }
+@font-face {
+    font-family: 'Cyntho Next';
+    src: url('./assets/fonts/CynthoNext-ExtraBold.woff2') format('woff2'),
+        url('./assets/fonts/CynthoNext-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cyntho Next';
+    src: url('./assets/fonts/CynthoNext-SemiBold.woff2') format('woff2'),
+        url('./assets/fonts/CynthoNext-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cyntho Next';
+    src: url('./assets/fonts/CynthoNext-Bold.woff2') format('woff2'),
+        url('./assets/fonts/CynthoNext-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cyntho Next';
+    src: url('./assets/fonts/CynthoNext-ExtraLight.woff2') format('woff2'),
+        url('./assets/fonts/CynthoNext-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cyntho Next';
+    src: url('./assets/fonts/CynthoNext-Regular.woff2') format('woff2'),
+        url('./assets/fonts/CynthoNext-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cyntho Next';
+    src: url('./assets/fonts/CynthoNext-Light.woff2') format('woff2'),
+        url('./assets/fonts/CynthoNext-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cyntho Next';
+    src: url('./assets/fonts/CynthoNext-Medium.woff2') format('woff2'),
+        url('./assets/fonts/CynthoNext-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cyntho Next';
+    src: url('./assets/fonts/CynthoNext-Thin.woff2') format('woff2'),
+        url('./assets/fonts/CynthoNext-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 h1, h2, h3, h4, h5, h6{
     margin: 0;
     padding: 0;
     margin-bottom: 20px;
+    font-family: 'Cyntho Next';
 }
 p{
     margin: 0;
