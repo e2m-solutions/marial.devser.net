@@ -64,7 +64,7 @@
                 <div class="mariel-title">
                     <?php $mariel_title = get_field('mariel_title');
                         if($mariel_title){ ?>
-                            <h1><?php echo $mariel_title; ?></h1>
+                            <h3><?php echo $mariel_title; ?></h1>
                         <?php  }
                     ?>
                 </div>
