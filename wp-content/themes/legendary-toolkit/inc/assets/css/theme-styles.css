@@ -1,0 +1,310 @@
+body,
+p {
+    font-family: var(--body_font_family, sans-serif);
+    color: var(--body_font_color, black);
+    font-style: var(--body_font_style, normal);
+    font-weight: var(--body_font_weight, normal);
+    text-transform: var(--body_font_transform, none);
+    font-size: var(--body_font_size, 16px);
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--all_font_family, sans-serif);
+    color: var(--all_font_color, black);
+    font-style: var(--all_font_style, normal);
+    font-weight: var(--all_font_weight, bold);
+    text-transform: var(--all_font_transform, none);
+}
+
+h1 {
+    font-family: var(--h1_font_family, var(--all_font_family), sans-serif);
+    color: var(--h1_font_color, var(--all_font_color), black);
+    font-style: var(--h1_font_style, var(--all_font_style), normal);
+    font-weight: var(--h1_font_weight, var(--all_font_weight), bold);
+    text-transform: var(--h1_font_transform, var(--all_font_transform), none);
+    font-size: var(--h1_font_size, 2em);
+}
+
+h2 {
+    font-family: var(--h2_font_family, var(--all_font_family), sans-serif);
+    color: var(--h2_font_color, var(--all_font_color), black);
+    font-style: var(--h2_font_style, var(--all_font_style), normal);
+    font-weight: var(--h2_font_weight, var(--all_font_weight), bold);
+    text-transform: var(--h2_font_transform, var(--all_font_transform), none);
+    font-size: var(--h2_font_size, 1.5em);
+}
+
+h3 {
+    font-family: var(--h3_font_family, var(--all_font_family), sans-serif);
+    color: var(--h3_font_color, var(--all_font_color), black);
+    font-style: var(--h3_font_style, var(--all_font_style), normal);
+    font-weight: var(--h3_font_weight, var(--all_font_weight), bold);
+    text-transform: var(--h3_font_transform, var(--all_font_transform), none);
+    font-size: var(--h3_font_size, 1.17em);
+}
+
+h4 {
+    font-family: var(--h4_font_family, var(--all_font_family), sans-serif);
+    color: var(--h4_font_color, var(--all_font_color), black);
+    font-style: var(--h4_font_style, var(--all_font_style), normal);
+    font-weight: var(--h4_font_weight, var(--all_font_weight), bold);
+    text-transform: var(--h4_font_transform, var(--all_font_transform), none);
+    font-size: var(--h4_font_size, 1em);
+}
+
+h5 {
+    font-family: var(--h5_font_family, var(--all_font_family), sans-serif);
+    color: var(--h5_font_color, var(--all_font_color), black);
+    font-style: var(--h5_font_style, var(--all_font_style), normal);
+    font-weight: var(--h5_font_weight, var(--all_font_weight), bold);
+    text-transform: var(--h5_font_transform, var(--all_font_transform), none);
+    font-size: var(--h5_font_size, .83em);
+}
+
+h6 {
+    font-family: var(--h6_font_family, var(--all_font_family), sans-serif);
+    color: var(--h6_font_color, var(--all_font_color), black);
+    font-style: var(--h6_font_style, var(--all_font_style), normal);
+    font-weight: var(--h6_font_weight, var(--all_font_weight), bold);
+    text-transform: var(--h6_font_transform, var(--all_font_weight), none);
+    font-size: var(--h6_font_size, 14px);
+}
+
+#main-nav>ul.navbar-nav>li>a,
+body:not(.theme-preset-active) #masthead .navbar-nav>li>a,
+body:not(.theme-preset-active) #masthead .navbar-nav>li>a:hover,
+body:not(.theme-preset-active) #masthead .navbar-nav>li.current_page_item>a {
+    font-family: var(--menu_items_font_family, var(--all_font_family), sans-serif);
+    color: var(--menu_items_font_color, white);
+    font-style: var(--menu_items_font_style, var(--all_font_style), normal);
+    font-weight: var(--menu_items_font_weight, var(--all_font_weight), bold);
+    text-transform: var(--menu_items_font_transform, var(--all_font_weight), none);
+    font-size: var(--menu_items_font_size, 14px);
+    opacity:1;
+}
+
+a.nav-link{
+    padding:0 16px;
+}
+
+.navbar-nav{
+    align-items: center;
+}
+
+.menu-cart {
+    width: 100px;
+    text-align: center;
+}
+
+#main-nav>ul.navbar-nav>li>a:not(li.btn a),
+body:not(.theme-preset-active) #masthead:not(.is-stuck) .navbar-nav>li>a:not(li.btn a),
+body:not(.theme-preset-active) #masthead:not(.is-stuck) .navbar-nav>li>a:not(li.btn a):hover,
+body:not(.theme-preset-active) #masthead:not(.is-stuck) .navbar-nav>li.current_page_item>a:not(li.btn a) {
+    line-height: var(--logo_height, 100px);
+}
+
+#main-nav>ul.navbar-nav>li>a:not(li.btn a),
+body:not(.theme-preset-active) #masthead.is-stuck .navbar-nav>li>a:not(li.btn a),
+body:not(.theme-preset-active) #masthead.is-stuck .navbar-nav>li>a:not(li.btn a):hover,
+body:not(.theme-preset-active) #masthead.is-stuck .navbar-nav>li>a:not(li.btn a),
+body:not(.theme-preset-active) #masthead.is-stuck .navbar-nav>li>a:not(li.btn a):hover,
+body:not(.theme-preset-active) #masthead.is-stuck .navbar-nav>li.current_page_item>a:not(li.btn a) {
+    line-height: var(--scrolling_logo_height, 100px);
+}
+
+.btn:not(:disabled):not(.disabled),
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle {
+     background: var(--primary_color);
+     border-color: var(--primary_color);
+}
+
+.frm_style_formidable-style.with_frm_style .frm_compact .frm_dropzone.dz-clickable .dz-message,
+.frm_style_formidable-style.with_frm_style input[type=submit],
+.frm_style_formidable-style.with_frm_style .frm_submit input[type=button],
+.frm_style_formidable-style.with_frm_style .frm_submit button,
+.frm_form_submit_style,
+.frm_style_formidable-style.with_frm_style .frm-edit-page-btn{
+    background: var(--primary_color);
+}
+
+.dropdown-menu .dropdown-item {
+    font-family: var(--menu_items_font_family, var(--all_font_family), sans-serif);
+    font-style: var(--menu_items_font_style, var(--all_font_style), normal);
+    font-weight: var(--menu_items_font_weight, var(--all_font_weight), bold);
+    text-transform: var(--menu_items_font_transform, var(--all_font_weight), none);
+    font-size: var(--menu_items_font_size, 14px);
+}
+
+.dropdown-toggle::after{
+    color: var(--menu_items_font_color);
+}
+#site_logo {
+    height: var(--logo_height, 100px);
+    padding: 0px 0px;
+}
+
+body:not(.theme-preset-active) #masthead .navbar-nav>li>a {
+    padding:0 14px;
+}
+
+blockquote p {
+    margin: 50px;
+    margin-left: 40px;
+    border-left: 2px solid var(--primary_color);
+    padding-left: 20px;
+    font-size: 1.5rem;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+header#masthead {
+    background-color: var(--header_background);
+}
+
+.top-bar-content {
+    background-color: var(--top_bar_background);
+}
+
+#footer_columns {
+    background-color: var(--footer_background);
+}
+
+body:not(.theme-preset-active) footer#colophon {
+    background-color: var(--copyright_background);
+}
+
+/* Header Behavior */
+
+header#masthead{
+    padding:0;
+    width:100%;
+}
+
+header#masthead:not(.is-stuck) {
+    box-shadow: none;
+}
+
+.sticky_header{
+    position:fixed;
+    top:0;
+    z-index:999;
+}
+
+header#masthead.sticky_header.is-stuck {
+    background-color: var(--scrolling_header_background);
+}
+
+.home header#masthead.is_transparent+#content {
+    margin-top: var(--logo_height, 100px);
+}
+
+header#masthead #site_logo {
+    height: var(--logo_height, 100px);
+    transition: height 275ms ease-in-out;
+    position:relative;
+    top:0;
+}
+
+header#masthead.is-stuck #site_logo {
+    height: var(--scrolling_logo_height);
+}
+
+slide-drawer::shadow .tkmm-toggle:not(.close) span {
+    background-color: white!important;
+}
+
+#page_title {
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 30px;
+}
+.dropdown-menu {
+    margin: 0;
+    border: 1px solid #dddddd;
+    border-top-width: 0px;
+    border-radius: 0px;
+}
+.dropdown:hover .dropdown-menu {
+    margin-top: 0;
+}
+.top-bar-content {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.top-bar-content p {
+    margin-bottom: 0px;
+}
+
+/* Breadcrumbs */
+.🍞,
+.bread {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.🍞 li,
+.bread li {
+    display: inline-block;
+}
+
+.🍞 li.crumb:last-child a,
+.bread li.crumb:last-child a {
+    text-decoration: none;
+    pointer-events: none;
+    color: inherit;
+}
+
+@media screen and (max-width: 600px) {
+    #wpadminbar {
+        position: fixed;
+    }
+}
+
+a {
+    color: var(--primary_color);
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #212529;
+    opacity: .8;
+}
+.menu-cart .menu-cart-image {
+    max-width: 30px;
+    margin-right: 15px;
+}
+a:hover {
+    color: var(--primary_color);
+    text-decoration: none;
+    opacity: .8;
+}
+.menu-cart table, .menu-cart th, .menu-cart td {
+    border: 1px solid #f1f1f1;
+    border-collapse: collapse;
+    color:#565656;
+}
+.menu-cart th, .menu-cart td {
+    padding: 15px;
+}
+.container{
+    max-width:var(--page_container_width);
+}
+
+.frm_style_formidable-style.with_frm_style .frm_compact .frm_dropzone.dz-clickable .dz-message, .frm_style_formidable-style.with_frm_style input[type=submit], .frm_style_formidable-style.with_frm_style .frm_submit input[type=button], .frm_style_formidable-style.with_frm_style .frm_submit button, .frm_form_submit_style, .frm_style_formidable-style.with_frm_style .frm-edit-page-btn{
+    border:0;
+}
+
+.frm_style_formidable-style.with_frm_style .frm-edit-page-btn:hover, .frm_style_formidable-style.with_frm_style input[type=submit]:hover, .frm_style_formidable-style.with_frm_style .frm_submit input[type=button]:hover, .frm_style_formidable-style.with_frm_style .frm_submit button:hover{
+    background: var(--primary_color);;
+    border:0;
+}
+
+.btn, button, .nav-link{
+    transition: .25s;
+}

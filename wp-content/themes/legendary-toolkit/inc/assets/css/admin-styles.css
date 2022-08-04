@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+.wrap {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.wrap>h2:first-child {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.theme-settings-wrap {
+    margin: 0px 0px 0px -20px;
+    /* border: 1px solid #1d2327; */
+}
+#options_header {
+    position:sticky;
+    top:31px;
+    z-index: 4;
+}
+#options_banner {
+    padding: 0px 30px;
+    background-color:#1d2327;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+}
+#options_banner h1 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+#options_banner input#submit {
+    background-color: white;
+    color: #1d2327;
+    border-radius: 3px;
+    border: 0px;
+    font-weight: 600;
+}
+.toolkit-media-upload {
+    background-color: #fafafa;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    height: 300px;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 0px;
+    border: dashed 1px #1d2327;
+    display:block;
+    margin-bottom: 15px;
+}
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    /* border-bottom: 1px solid #1d2327; */
+    box-shadow: 0px 1px 2px rgba(0,0,0,.1);
+    background-color: white;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 1.1em;
+    font-weight: 600;
+    border-right: 1px solid #eaeaea;
+    color: #1d2327;
+    /* text-transform: uppercase; */
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #f5f5f5;
+    /* color:white; */
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #1d2327;
+    color: white;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    background-color: white;
+    padding: 30px;
+    border-bottom: 1px solid #1d2327;
+    border-top: none;
+    font-family: 'Poppins', sans-serif;
+}
+.tabcontent {
+    animation: fadeEffect 1s;
+}
+.tabcontent h3 {
+    font-weight: 600;
+    font-size: 2em;
+}
+.tabcontent .button {
+    border-radius: 3px;
+    background-color: #1d2327;
+    color: white;
+    border: 1px solid #1d2327;
+    font-weight: 600;
+}
+.tabcontent .button:hover {
+    color: #1d2327;
+    background-color:white;
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+.legendary-toolkit-input-group {
+    display:flex;
+    align-items: center;
+    /* justify-content:  */
+}
+.legendary-toolkit-input-group input, .legendary-toolkit-input-group select {
+    margin: 0px;
+}
+.legendary-toolkit-input-group label.prefix, .legendary-toolkit-input-group label.suffix {
+    padding: 0px 5px;
+    background-color: #f6f7f7;
+    border: 1px solid #8c8f94;
+    border-radius: 3px;
+    font-weight: 600;
+    z-index:3;
+    font-size: 11px;
+    line-height: 2.54545455;
+}
+.legendary-toolkit-input-group label.prefix {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-right:-3px;
+}
+.legendary-toolkit-input-group label.suffix {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    margin-left:-10px;
+}
+.wp-picker-container .wp-color-result.button {
+    border: 1px solid #8c8f94;
+}
+.inner-form-table td {
+    vertical-align: top;
+    width: 10%;
+    min-width: 200px;
+    padding: 0;
+    margin: 0;
+}
+.form-table input[type="number"] {
+    max-width:80px;
+}
+.form-table .wp-picker-holder {
+    position: absolute;
+}
+.wp-picker-container .iris-picker {
+    z-index: 4;
+}
+#options_header.notice {
+    transition: all .3s;
+}
+#save_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: auto;
+    justify-content: flex-end;
+}
+#toast_container {
+    width:50px;
+    position:relative;
+    margin-top:-10px;
+}
+.save-toast {
+    position:absolute;
+    
+}
+.save-success {
+    top: -10px;
+    width: 10px;
+    border-bottom: 3px solid #47ce74;
+    height: 22px;
+    border-right: 3px solid #47ce74;
+    margin-left: 10px;
+    transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+}
+.save-error:after {
+    content:"\d7";
+    font-size: 60px;
+    color: rgb(151, 56, 56)
+}
+.save-loading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 20px;
+    width: 20px;
+    margin: -6px 0 0 -20px;
+    border: 4px rgba(255, 255, 255, 0) solid;
+    border-top: 4px white solid;
+    border-bottom: 4px white solid;
+    border-radius: 50%;
+    -webkit-animation: spin1 1s infinite linear;
+            animation: spin1 1s infinite linear;
+}
+.tabcontent button.button-flat {
+    background-color: transparent;
+    border-color: transparent;
+    color: black;
+    line-height: 1.7;
+    transition: .2s;
+}
+.tabcontent button.button-flat:hover, .tabcontent button.button-flat:active, .tabcontent button.button-flat:focus {
+    background-color: #f0f0f1;
+    border-color:transparent;
+    box-shadow: none;
+    outline: 0px;
+}
+.tabcontent button.delete-button {
+    color: #d63638;
+}
+@-webkit-keyframes spin1 {
+    from {
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+                transform: rotate(359deg);
+    }
+}
+@keyframes spin1 {
+    from {
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+                transform: rotate(359deg);
+        -webkit-transform: rotate(359deg);
+                transform: rotate(359deg);
+    }
+}
+/* @media screen and (max-width: 782px) {
+    input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], .wp-admin .form-table select, .wp-core-ui select {
+        min-height: 30px;
+        padding: 0
+    }
+    .legendary-toolkit-input-group {
+        margin-bottom: 5px;
+    }
+} */
