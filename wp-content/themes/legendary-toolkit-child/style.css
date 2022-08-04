@@ -240,5 +240,6 @@ p:last-child{
     margin-top: 30px;
 }
 .mariel-btn .btn-blue{
-background: #D7B794 !important;
+background: #D7B794;
+border:  solid 1px #D7B794;
 }
