@@ -2,7 +2,7 @@
 
 <?php get_header(); ?>
 <?php $hero_image = get_field('hero_image'); ?>
-<section class="hero-section" style=" background-image: url('<?php echo $hero_image; ?>');">
+<section class="hero-section" style=" background-image: url('<?php echo $hero_image['url']; ?>');">
     <div class="container">
         <div class="hero-text">
             <div class="hero-sub-title">
