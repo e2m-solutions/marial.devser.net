@@ -253,7 +253,9 @@ border:  solid 1px #D7B794;
     width: 48%;
 }
 .right-section{
-    width: 45%;
+    width: 45%; 
+}
+.connection-right-image{
     padding-top: 100%;
     position: relative;
 }
