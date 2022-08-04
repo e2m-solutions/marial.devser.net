@@ -14,29 +14,25 @@
 			</div><!-- .row -->
 		</div><!-- .container -->
 		<section class="cta-section">
-<?php $title = get_field('cta_content', 'option');
-$content = get_field('cta_image', 'option');
-$button = get_field('cta_button', 'option');
-?>
 			<div class="container">
 				<div class="cta-content-wrap text-center">
 					<div class="cta-title">
-						<?php $title = get_field('title');
-							if($title){ ?>
-								<span><?php echo $title; ?></span>
+						<?php $cta_content = get_field('cta_content', 'option');
+							if($cta_content){ ?>
+								<span><?php echo $cta_content; ?></span>
 							<?php  }
 						?>
 					</div>
 					<div class="cta-content text-center">
-						<?php $content = get_field('content');
-							if($content){ ?>
-								<span><?php echo $content; ?></span>
+						<?php $cta_image = get_field('cta_image', 'option');
+							if($cta_image){ ?>
+								<span><?php echo $cta_image; ?></span>
 							<?php  }
 						?>
 					</div>
 					<div class="cta-button">
 						<?php 
-						$link = get_field('cta_button');
+						$link = get_field('cta_button', 'option');
 							if( $link ): 
 								$link_url = $link['url'];
 								$link_title = $link['title'];
