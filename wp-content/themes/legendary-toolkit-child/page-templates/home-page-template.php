@@ -68,7 +68,7 @@
                         <?php  }
                     ?>
                 </div>
-                <div class="mariel-content">
+                <div class="mariel-description">
                     <?php $mariel_content = get_field('mariel_content');
                         if($mariel_content){ ?>
                             <?php echo $mariel_content; ?>
