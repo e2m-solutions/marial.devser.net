@@ -16,8 +16,6 @@
 <?php if (!is_page_template( 'blank-page.php' ) && !is_page_template( 'blank-page-with-container.php' )) : ?>
 			</div><!-- .row -->
 		</div><!-- .container -->
-
-	<?php if (!is_page('')) {?>
 		<section class="cta-section">
 			<div class="container">
 				<div class="cta-content-wrap text-center">
@@ -49,7 +47,7 @@
 				</div>
 			</div>
 		</section>
-	<?php	} ?>	
+	
 		<div id="footer" style="background-image: url('<?php echo $image['url'] ?>');">
 			<?php get_template_part('template-parts/footer', 'widgets');?>
 			<?php get_template_part('template-parts/footer', 'copyright');?>
