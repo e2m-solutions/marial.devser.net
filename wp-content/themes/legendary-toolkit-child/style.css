@@ -71,19 +71,31 @@ p:last-child{
 }
 .btn-white{
     background-color: #ffff;
-    padding: 11px 40px;
+    padding: 11px 43px;
     text-transform: uppercase;
     font-size: 18px;
     color: #454545;
     border: solid 1px #ffff;
     font-weight: 600;
+    border-radius: 4px;
 }
 .btn-transparent{
     background-color: transparent;
-    padding: 11px 40px;
+    padding: 11px 43px;
     text-transform: uppercase;
     font-size: 18px;
     color: #ffff;
     border: solid 1px #ffff;
     font-weight: 600;
+    border-radius: 4px;
+}
+.header-btn a{
+    background-color: transparent;
+    padding: 11px 43px;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #ffff;
+    border: solid 1px #ffff;
+    font-weight: 600;
+    border-radius: 4px;
 }
