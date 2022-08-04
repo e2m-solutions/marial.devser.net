@@ -9,7 +9,7 @@
  * @package WP_Bootstrap_Starter
  */
     $favicon = esc_url(wp_get_attachment_image_url(legendary_toolkit_get_theme_option('favicon'), 'medium'));
-    $content_container = (toolkit_get_sidebar_selection() || is_page_template('blank-page.php') || is_page_template('page-full-width.php') ||  is_page_template('page-templates/home-template.php') ||  is_page_template('page-templates/about-template.php') || is_archive() || is_single() || is_home()) ? 'container-fluid' : 'container';
+    $content_container = (toolkit_get_sidebar_selection() || is_page_template('blank-page.php')  || is_page_template('home-page-template.php') || is_page_template('page-full-width.php') ||  is_page_template('page-templates/home-template.php') ||  is_page_template('page-templates/about-template.php') || is_archive() || is_single() || is_home()) ? 'container-fluid' : 'container';
 ?> 
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
