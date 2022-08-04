@@ -46,3 +46,7 @@ p:last-child{
    background-size: cover;
    padding: 100px 0;
 }
+.container-fluid{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
