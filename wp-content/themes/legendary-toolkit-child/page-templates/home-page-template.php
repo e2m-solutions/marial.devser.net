@@ -90,4 +90,47 @@
         </div>
     </div>
 </section>
+<section class="connection-section">
+    <div class="container">
+        <div class="connection-wrap d-flex justify-content-between">
+            <div class="left-section">
+                <div class="connection-title">
+                    <?php $connection_title = get_field('connection_title');
+                            if($connection_title){ ?>
+                                <h2><?php echo $connection_title; ?></h1>
+                            <?php  }
+                        ?>
+                </div>
+
+                <div class="connection-content">
+                    <?php $connection_content = get_field('connection_content');
+                            if($connection_content){ ?>
+                                <?php echo $connection_content; ?>
+                            <?php  }
+                        ?>
+                </div>
+                <div class="connection-button">
+                    <?php 
+                        $link = get_field('connection_button');
+                        if( $link ): 
+                            $link_url = $link['url'];
+                            $link_title = $link['title'];
+                            $link_target = $link['target'] ? $link['target'] : '_self';
+                            ?>
+                            <a class="btn-blue" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
+                    <?php endif; ?>
+                </div>
+            </div>
+            <div class="right-section">
+                <div class="connection-right-image">
+                    <?php $connection_image = get_field('connection_image');
+                        if($connection_image){ ?>
+                        <img src="<?php echo $connection_image['url']; ?>" alt="<?php echo $connection_image['alt']; ?>">
+                        <?php  }
+                        ?>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <?php get_footer(); ?>
