@@ -22,6 +22,9 @@ body{
 }
 *{box-sizing: border-box;}
 
+#content {
+    margin-top: 100px !important;
+}
 h1, h2, h3, h4, h5, h6{
     margin: 0;
     padding: 0;
@@ -49,4 +52,20 @@ p:last-child{
 .container-fluid{
     padding-left: 0 !important;
     padding-right: 0 !important;
+}
+.hero-sub-title span {
+    color: #ffff;
+}
+.hero-title{
+    max-width: 1247px;
+}
+.hero-title h1 {
+    color: #ffff;
+}
+
+.hero-content p {
+    color: #ffff;
+}
+.hero-content{
+    max-width: 872px;
 }
