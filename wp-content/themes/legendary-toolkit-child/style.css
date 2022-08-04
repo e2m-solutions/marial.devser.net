@@ -135,6 +135,7 @@ p:last-child{
 }
 .hero-title h1 {
     color: #ffff;
+    text-transform: uppercase;
 }
 
 .hero-content p {
