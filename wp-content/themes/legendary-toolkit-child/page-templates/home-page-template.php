@@ -133,4 +133,31 @@
         </div>
     </div>
 </section>
+<section class="testimonial-section">
+    <div class="container">
+        <div class="testimonial-wrap">
+            
+               <?php if(have_rows('testimonial_repeater')) {
+                while(have_rows('testimonial_repeater')){
+                    the_row();
+                    $testimonial_title = get_sub_field();
+                    $testimonial_content = testimonial_content();
+                    $testimonial_author = testimonial_author(); ?>
+                    <div class="testimonial">
+                        <div class="testimonial-title">
+                            <h2><?php echo $testimonial_title ?></h2>
+                        </div>
+                        <div class="testimonial_content">
+                            <?php echo $testimonial_content ?>
+                        </div>
+                        <div class="testimonial-author">
+                            <span><?php echo $testimonial_author ?></span>
+                        </div>
+                    </div>
+               <?php }
+                }?>
+          
+        </div>
+    </div>
+</section>
 <?php get_footer(); ?>

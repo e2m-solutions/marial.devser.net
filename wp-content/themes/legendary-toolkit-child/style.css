@@ -275,3 +275,7 @@ border:  solid 1px #D7B794;
     height: 100%;
     object-fit: cover;
 }
+.testimonial-section{
+    background: #455775;
+    padding: 60px 0;
+}
