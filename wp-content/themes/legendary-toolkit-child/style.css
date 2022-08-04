@@ -195,13 +195,12 @@ p:last-child{
 .cta-section:before {
     content: "";
     position: absolute;
-    left: 0;
+    left: -13%;
     top: 0;
     width: 693px;
     height: 691px;
     background: url('../../../wp-content/uploads/2022/08/Vector-design.svg');
     background-repeat: no-repeat;
-    background-size: contain;
 }
 .cta-title h3{
     color: #ffff;
