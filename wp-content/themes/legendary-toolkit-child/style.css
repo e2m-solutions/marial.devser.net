@@ -240,6 +240,7 @@ p:last-child{
     display: flex;
     justify-content: flex-end;
     position: relative;
+    z-index: 1;
 }
 .mariel-content:before{
 content: "";
@@ -251,6 +252,7 @@ bottom: 0;
 background: url('../../../wp-content/uploads/2022/08/background-before.svg');
 background-repeat: no-repeat;
 width: 100%;
+z-index: -1;
 }
 .mariel-content-wrap{
     justify-content: flex-end;
@@ -264,7 +266,7 @@ width: 100%;
     left: 0;
     top: 44px;
     width: 51%;
-    z-index: 1;
+    z-index: 2;
 }
 .mariel-image img{
     border: solid 10px #ffff;
