@@ -205,6 +205,7 @@ p:last-child{
 .cta-title h3{
     color: #ffff;
     font-family: 'Montserrat', sans-serif;
+    margin-bottom: 60px;
 }
 .cta-content{
     max-width: 965px;
@@ -216,8 +217,5 @@ p:last-child{
     line-height: 1.8;
 }
 .cta-button {
-    margin-top: 35px;
-}
-.cta-button {
-    margin-top: 35px;
+    margin-top: 50px;
 }
