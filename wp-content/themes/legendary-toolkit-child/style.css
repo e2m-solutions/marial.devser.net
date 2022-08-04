@@ -149,7 +149,7 @@ p:last-child{
 .hero-btn {
     margin-top: 50px;
 }
-.hero-btn:first-child{
+.hero-btn a:first-child{
     margin-right: 25px;
 }
 .btn-white{
