@@ -320,7 +320,7 @@ border:  solid 1px #D7B794;
 }
 .slick-dots li button:before {
     font-family: slick;
-    font-size: 13px;
+    font-size: 32px;
     line-height: 20px;
     position: absolute;
     top: 0;
@@ -335,5 +335,5 @@ border:  solid 1px #D7B794;
 }
 .slick-dots li.slick-active button:before {
     color: #C4C4C4;
-    font-size: 6px;
+    font-size: 20px;
 }
