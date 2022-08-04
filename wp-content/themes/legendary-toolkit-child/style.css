@@ -279,3 +279,11 @@ border:  solid 1px #D7B794;
     background: rgba(69, 87, 117, 0.08);
     padding: 60px 0;
 }
+.testimonial{
+    max-width: 1166px !important;
+    margin: 0 auto;
+}
+.testimonial_content p{
+    font-size: 28px;
+    color: #353535;
+}
