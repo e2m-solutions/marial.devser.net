@@ -146,6 +146,12 @@ p:last-child{
 .hero-content{
     max-width: 872px;
 }
+.hero-btn {
+    margin-top: 50px;
+}
+.hero-btn:first-child{
+    margin-right: 25px;
+}
 .btn-white{
     background-color: #ffff;
     padding: 11px 43px;
