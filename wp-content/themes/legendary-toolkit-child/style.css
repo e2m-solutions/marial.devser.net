@@ -237,6 +237,20 @@ p:last-child{
     border: solid 18px #ffff;
     width: 70%;
     padding: 60px 40px 30px 40px;
+    display: flex;
+    justify-content: flex-end;
+}
+.mariel-content-wrap{
+    justify-content: flex-end;
+    position: relative;
+}
+.mariel-all-content{
+    width: 70%;
+}
+.mariel-image {
+    position: absolute;
+    left: 0;
+    top: 44px;
 }
 .mariel-title h2 {
     color: #ffff;

@@ -61,30 +61,32 @@
                     ?>
             </div>
             <div class="mariel-content">
-                <div class="mariel-title">
-                    <?php $mariel_title = get_field('mariel_title');
-                        if($mariel_title){ ?>
-                            <h2><?php echo $mariel_title; ?></h1>
-                        <?php  }
-                    ?>
-                </div>
-                <div class="mariel-description">
-                    <?php $mariel_content = get_field('mariel_content');
-                        if($mariel_content){ ?>
-                            <?php echo $mariel_content; ?>
-                        <?php  }
-                    ?>
-                </div>
-                <div class="mariel-btn">
-                <?php 
-                    $link = get_field('mariel_button');
-                    if( $link ): 
-                        $link_url = $link['url'];
-                        $link_title = $link['title'];
-                        $link_target = $link['target'] ? $link['target'] : '_self';
+                <div class="mariel-all-content">
+                    <div class="mariel-title">
+                        <?php $mariel_title = get_field('mariel_title');
+                            if($mariel_title){ ?>
+                                <h2><?php echo $mariel_title; ?></h1>
+                            <?php  }
                         ?>
-                        <a class="btn-blue" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
-                <?php endif; ?>
+                    </div>
+                    <div class="mariel-description">
+                        <?php $mariel_content = get_field('mariel_content');
+                            if($mariel_content){ ?>
+                                <?php echo $mariel_content; ?>
+                            <?php  }
+                        ?>
+                    </div>
+                    <div class="mariel-btn">
+                    <?php 
+                        $link = get_field('mariel_button');
+                        if( $link ): 
+                            $link_url = $link['url'];
+                            $link_title = $link['title'];
+                            $link_target = $link['target'] ? $link['target'] : '_self';
+                            ?>
+                            <a class="btn-blue" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
+                    <?php endif; ?>
+                    </div>
                 </div>
             </div>
         </div>
