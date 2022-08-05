@@ -203,6 +203,7 @@ p:last-child{
     font-weight: 600;
     border-radius: 4px;
 }
+
 .btn-transparent{
     background-color: transparent;
     padding: 11px 43px;
@@ -212,6 +213,11 @@ p:last-child{
     border: solid 1px #ffff;
     font-weight: 600;
     border-radius: 4px;
+}
+.btn-white:hover, .btn-transparent:hover{
+    background:#1A1E31;
+    border: solid 1px #1A1E31;
+    color: #fff !important;
 }
 .btn-blue{
     background-color: #1A1E31;
