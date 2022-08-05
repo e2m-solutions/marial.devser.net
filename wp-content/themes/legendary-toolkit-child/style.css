@@ -119,11 +119,21 @@ p:last-child{
     margin: 0 auto;
     padding: 0 50px;
 }
+.site-header .container-fluid {
+    max-width: 1690px;
+    margin: 0 auto;
+    padding: 0 50px !important;
+}
 .hero-section{
     width: 100%;
     background-repeat: no-repeat;
    background-size: cover;
    padding: 100px 0;
+   height: 100vh;
+}
+.hero-text{
+    display: flex;
+    align-items: center;
 }
 .container-fluid{
     padding-left: 0 !important;
