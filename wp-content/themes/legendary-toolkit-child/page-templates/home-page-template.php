@@ -56,7 +56,7 @@
             <div class="mariel-image">
                 <?php $client_image = get_field('client_image');
                     if($hero_content){ ?>
-                     <img class="marie-img" src="<?php echo $client_image['url']; ?>" alt="<?php echo $client_image['alt']; ?>">
+                     <img class="mariel-img" src="<?php echo $client_image['url']; ?>" alt="<?php echo $client_image['alt']; ?>">
                     <?php  }
                     ?>
 
