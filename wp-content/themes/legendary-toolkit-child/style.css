@@ -700,6 +700,19 @@ padding-right: 30px;
     .right-section {
         width: 100%;
     }
+    .connection-section {
+        padding: 50px 0 50px;
+    }
+    .meet-mariel-section {
+        padding-top: 50px;
+    }
+    .hero-btn{
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+    .hero-btn a{
+        margin-top: 20px;
+    }
 }
 @media only screen and (max-width:580px){
 
