@@ -201,7 +201,7 @@ p:last-child{
 #menu-header-menu li a {
     padding: 0 50px !important;
 }
-.header-btn a{
+#menu-header-menu .header-btn a{
     background-color: transparent;
     padding: 11px 43px !important;
     text-transform: uppercase;
