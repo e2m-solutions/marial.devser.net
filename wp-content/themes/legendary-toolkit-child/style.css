@@ -132,7 +132,7 @@ a:hover{
     width: 100%;
     top: 32px;
     position: fixed;
-    z-index: 1;
+    z-index: 5;
 }
 #masthead #site_logo {
     max-width: 263px;
@@ -360,7 +360,9 @@ border:  solid 1px #D7B794;
 }
 .left-section{
     width: 48%;
-    padding-right: 30px;
+}
+.connection-content{
+padding-right: 30px;
 }
 .connection-title h2 {
     font-weight: 600;
