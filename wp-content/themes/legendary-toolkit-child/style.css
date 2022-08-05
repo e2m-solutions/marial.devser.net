@@ -767,4 +767,10 @@ padding-right: 30px;
     .testimonial-section {
         padding: 35px 0 45px;
     }
+    .connection-section {
+        padding: 40px 0 40px;
+    }
+    .mariel-content {
+        margin-top: 30px;
+    }
 }
