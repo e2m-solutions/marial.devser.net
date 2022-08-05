@@ -778,4 +778,10 @@ padding-right: 30px;
         height: 270px;
         background-size: contain;
     }
+    .play-button img {
+        width: 80px;
+    }
+    .hero-btn {
+        margin-top: 10px;
+    }
 }
