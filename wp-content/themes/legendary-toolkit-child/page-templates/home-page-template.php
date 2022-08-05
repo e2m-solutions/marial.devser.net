@@ -54,11 +54,13 @@
     <div class="container">
         <div class="mariel-content-wrap d-flex">
             <div class="mariel-image">
-                <?php $client_image = get_field('client_image');
-                    if($hero_content){ ?>
-                     <img src="<?php echo $client_image['url']; ?>" alt="<?php echo $client_image['alt']; ?>">
-                    <?php  }
-                    ?>
+                <div class="client-img">
+                    <?php $client_image = get_field('client_image');
+                        if($hero_content){ ?>
+                        <img src="<?php echo $client_image['url']; ?>" alt="<?php echo $client_image['alt']; ?>">
+                        <?php  }
+                        ?>
+                </div>
 
                     <div class="play-button">
                         <?php $play_button = get_field('play_button');
