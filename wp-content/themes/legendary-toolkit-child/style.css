@@ -383,6 +383,9 @@ padding-right: 30px;
     margin-top: 35px;
     text-align: center;
 }
+.connection-button .btn-blue:hover{
+    border-color: #454545;
+}
 .right-section{
     width: 45%; 
 }
