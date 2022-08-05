@@ -591,7 +591,7 @@ padding-right: 30px;
     }
     .btn-white, .btn-transparent, .mariel-btn .btn-blue, .btn-blue{
         font-size: 16px;
-        padding: 10px 43px !important;
+        padding: 8px 43px !important;
     }
     .testimonial_content p {
         font-size: 20px;
@@ -606,6 +606,30 @@ padding-right: 30px;
     }
     .site-header .container-fluid {
         padding: 0 20px !important;
+    }
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    p{
+        font-size: 16px;
+    }
+    .hero-section {
+        padding: 120px 0 90px;
+    }
+    .meet-mariel-section {
+        padding-top: 80px;
+    }
+    .connection-section {
+        padding: 80px 0 80px;
+    }
+    .mariel-title h2 {
+        margin-bottom: 15px;
+    }
+    .mariel-btn {
+        margin-top: 25px;
     }
 }
 @media only screen and (max-width:640px){
