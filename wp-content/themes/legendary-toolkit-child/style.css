@@ -114,6 +114,9 @@ p{
 p:last-child{
     margin-bottom: 0;
 }
+a:hover{
+    opacity: 1 !important;
+}
 .container{
     max-width: 1570px;
     margin: 0 auto;
