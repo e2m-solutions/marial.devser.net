@@ -199,12 +199,12 @@ p:last-child{
     border-radius: 4px;
 }
 #menu-header-menu li a {
-    padding: 0 50px !important;
+    padding: 0 28px !important;
 }
 #menu-header-menu .header-btn a{
     background-color: transparent;
     padding: 11px 43px !important;
-    text-transform: uppercase;
+    text-transform: uppercase !important;
     font-size: 18px;
     color: #ffff;
     border: solid 1px #ffff;
