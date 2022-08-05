@@ -516,6 +516,15 @@ padding-right: 30px;
     .site-header .container-fluid {
         padding: 0 40px !important;
     }
+    h1{
+        font-size: 55px;
+    }
+    h2{
+        font-size: 45px;
+    }
+    h3{
+        font-size: 35px;
+    }
     .hero-section {
         padding: 165px 0 125px;
     }
@@ -550,6 +559,12 @@ padding-right: 30px;
     }
     .cta-section {
         padding: 95px 0;
+    }
+    .connection-content {
+        padding-right: 0;
+    }
+    .left-section {
+        width: 50%;
     }
 }
 @media only screen and (max-width:1024px){
