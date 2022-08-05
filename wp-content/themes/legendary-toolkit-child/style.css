@@ -155,7 +155,7 @@ p:last-child{
 }
 .hero-sub-title {
     position: relative;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     margin-left: 120px;
 }
 .hero-sub-title:before {
@@ -185,9 +185,10 @@ p:last-child{
 }
 .hero-content{
     max-width: 872px;
+    margin-top: 32px;
 }
 .hero-btn {
-    margin-top: 50px;
+    margin-top: 65px;
 }
 .hero-btn a:first-child{
     margin-right: 25px;
