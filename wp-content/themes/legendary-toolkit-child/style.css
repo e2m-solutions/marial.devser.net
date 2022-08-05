@@ -364,6 +364,11 @@ z-index: -1;
 background: #D7B794;
 border:  solid 1px #D7B794;
 }
+.mariel-btn .btn-blue:hover{
+    background: transparent;
+    border:  solid 1px #fff;
+    color: #fff;
+    }
 .connection-section{
     width: 100%;
     padding: 270px 0 180px;
