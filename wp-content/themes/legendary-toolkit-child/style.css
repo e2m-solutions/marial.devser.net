@@ -492,6 +492,10 @@ padding-right: 30px;
     margin-top: 20px;
     font-family: 'Montserrat', sans-serif !important;
 }
+.cta-content-wrap{
+    position: relative;
+    z-index: 2;
+}
 
 
 /* RESPONSIVE START HERE */
