@@ -675,6 +675,7 @@ padding-right: 30px;
     }
     .hero-sub-title {
         margin-left: 90px;
+        margin-bottom: 10px;
     }
     .mariel-image{
         position: relative;
@@ -786,5 +787,18 @@ padding-right: 30px;
     }
     .hero-btn {
         margin-top: 10px;
+    }
+    .btn-white, .btn-transparent, .mariel-btn .btn-blue, .btn-blue {
+        font-size: 14px;
+    }
+    .connection-title h2{
+        margin-bottom: 20px;
+    }
+    .hero-sub-title span {
+        font-size: 14px;
+    }
+    .hero-sub-title:before {
+        top: 16px;
+        height: 1px;
     }
 }
