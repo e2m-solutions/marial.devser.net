@@ -110,6 +110,7 @@ p{
     margin: 0;
     padding: 0;
     margin-bottom: 20px;
+    line-height: 1.6;
 }
 p:last-child{
     margin-bottom: 0;
