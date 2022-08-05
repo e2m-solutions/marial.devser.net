@@ -212,6 +212,11 @@ p:last-child{
     border-radius: 4px;
     line-height: 18px !important;
 }
+#menu-header-menu .header-btn a:hover{
+    border: solid 1px #1A1E31;
+    background-color: #1A1E31 !important;
+
+}
 .header-btn {
     margin-left: 40px;
 }
