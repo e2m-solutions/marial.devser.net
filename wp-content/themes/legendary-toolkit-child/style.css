@@ -146,8 +146,7 @@ p:last-child{
     width: 100%;
     background-repeat: no-repeat;
    background-size: cover;
-   padding: 100px 0;
-   height: 100vh;
+   padding: 200px 0 150px;
    display: flex;
    align-items: center;
 }
