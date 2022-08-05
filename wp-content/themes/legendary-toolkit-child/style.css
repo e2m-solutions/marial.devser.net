@@ -596,6 +596,9 @@ padding-right: 30px;
     .testimonial_content p {
         font-size: 20px;
     }
+    .cta-content p {
+        font-size: 22px;
+    }
 }
 @media only screen and (max-width:992px){
 
@@ -633,6 +636,17 @@ padding-right: 30px;
     }
     .testimonial-section {
         padding: 60px 0 70px;
+    }
+    .cta-content p {
+        font-size: 18px;
+    }
+    .cta-section {
+        padding: 50px 0;
+    }
+    .cta-section:before {
+        width: 314px;
+        height: 314px;
+        background-size: cover;
     }
 }
 @media only screen and (max-width:640px){
