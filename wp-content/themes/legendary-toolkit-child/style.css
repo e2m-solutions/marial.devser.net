@@ -291,7 +291,7 @@ a:hover{
     padding: 55px 0 35px;
 }
 .meet-mariel-section{
-    padding-top: 100px;
+    padding-top: 220px;
 }
 .mariel-content{
     background:#455775 ;
@@ -356,10 +356,23 @@ border:  solid 1px #D7B794;
 }
 .connection-section{
     width: 100%;
-    padding: 155px 0 180px;
+    padding: 270px 0 180px;
 }
 .left-section{
     width: 48%;
+    padding-right: 30px;
+}
+.connection-title h2 {
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #353535;
+}
+.connection-content p {
+    color: #666666;
+}
+.connection-button {
+    margin-top: 35px;
+    text-align: center;
 }
 .right-section{
     width: 45%; 
