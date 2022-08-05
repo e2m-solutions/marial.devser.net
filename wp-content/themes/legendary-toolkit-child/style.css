@@ -144,6 +144,9 @@ a:hover{
 #menu-header-menu li a {
     padding: 0 28px !important;
 }
+#menu-header-menu li a:hover{
+    color: #1A1E31;
+}
 .hero-section{
     width: 100%;
     background-repeat: no-repeat;
