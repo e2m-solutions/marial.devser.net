@@ -145,7 +145,7 @@ a:hover{
     padding: 0 28px !important;
 }
 #menu-header-menu li a:hover{
-    color: #1A1E31 !important;
+    color: #455775 !important;
 }
 .hero-section{
     width: 100%;
@@ -260,6 +260,7 @@ a:hover{
 #menu-header-menu .header-btn a:hover{
     border: solid 1px #1A1E31;
     background-color: #1A1E31 !important;
+    color: #fff !important;
 
 }
 .header-btn {
