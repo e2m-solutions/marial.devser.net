@@ -235,6 +235,13 @@ a:hover{
     border-radius: 4px;
     font-family: 'Montserrat', sans-serif !important;
 }
+.btn-blue:hover{
+    background: #fff;
+    border: solid 1px #fff;
+    color: #454545;
+
+
+}
 
 #menu-header-menu .header-btn a{
     background-color: transparent;
