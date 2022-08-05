@@ -198,6 +198,10 @@ p:last-child{
     font-weight: 600;
     border-radius: 4px;
 }
+r#masthead #site_logo {
+    max-width: 263px;
+    height: auto !important;
+}
 #menu-header-menu li a {
     padding: 0 28px !important;
 }
