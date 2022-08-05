@@ -337,7 +337,7 @@ z-index: -1;
 .play-button {
     position: absolute;
     top: 50%;
-    right: -93px;
+    right: -88px;
     transform: translateY(-50%);
 }
 .mariel-title h2 {
