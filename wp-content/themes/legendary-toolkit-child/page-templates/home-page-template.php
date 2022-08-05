@@ -102,7 +102,7 @@
 </section>
 <section class="connection-section">
     <div class="container">
-        <div class="connection-wrap d-flex justify-content-between">
+        <div class="connection-wrap d-flex flex-wrap justify-content-between">
             <div class="left-section">
                 <div class="connection-title">
                     <?php $connection_title = get_field('connection_title');
