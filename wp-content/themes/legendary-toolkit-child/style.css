@@ -144,9 +144,9 @@ a:hover{
 #menu-header-menu li a {
     padding: 0 28px !important;
 }
-#menu-header-menu li a:hover{
+/* #menu-header-menu li a:hover{
     color: #455775 !important;
-}
+} */
 .hero-section{
     width: 100%;
     background-repeat: no-repeat;
@@ -208,7 +208,7 @@ a:hover{
     border: solid 1px #ffff;
     font-weight: 600;
     border-radius: 4px;
-    font-family: 'Montserrat', sans-serif !important;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .btn-transparent{
@@ -236,7 +236,7 @@ a:hover{
     border: solid 1px #1A1E31;
     font-weight: 600;
     border-radius: 4px;
-    font-family: 'Montserrat', sans-serif !important;
+    font-family: 'Montserrat', sans-serif;
 }
 .btn-blue:hover{
     background: #fff;
@@ -364,6 +364,7 @@ z-index: -1;
 .mariel-btn .btn-blue{
 background: #D7B794;
 border:  solid 1px #D7B794;
+font-family: 'Cyntho Next';
 }
 .mariel-btn .btn-blue:hover{
     background: transparent;
