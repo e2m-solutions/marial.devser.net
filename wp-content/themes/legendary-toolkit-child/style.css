@@ -397,12 +397,23 @@ padding-right: 30px;
     background: rgba(69, 87, 117, 0.08);
     padding: 60px 0;
 }
+.testimonial-title h2 {
+    color: #353535;
+    font-weight: 600;
+} 
 .testimonial_content p{
     max-width: 1166px !important;
     font-size: 28px;
     color: #353535;
     margin: 0 auto;
     
+}
+.testimonial-author{
+    margin-top: 20px;
+}
+.testimonial-author span {
+    font-size: 18px;
+    font-weight: 700;
 }
 .slick-dots {
     position: absolute;
