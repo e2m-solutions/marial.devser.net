@@ -722,6 +722,9 @@ padding-right: 30px;
     #masthead #site_logo {
         max-width: 200px;
     }
+    .connection-button {
+        text-align: left;
+    }
 }
 @media only screen and (max-width:580px){
 
