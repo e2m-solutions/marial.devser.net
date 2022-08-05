@@ -517,7 +517,7 @@ padding-right: 30px;
         padding: 0 40px !important;
     }
     h1{
-        font-size: 55px;
+        font-size: 58px;
     }
     h2{
         font-size: 45px;
@@ -573,6 +573,22 @@ padding-right: 30px;
     }
     .site-header .container-fluid {
         padding: 0 30px !important;
+    }
+    h1{
+        font-size: 45px;
+    }
+    h2{
+        font-size: 35px;
+    }
+    h3{
+        font-size: 30px;
+    }
+    p{
+        font-size: 18px;
+    }
+    .btn-white, .btn-transparent, .mariel-btn .btn-blue, .btn-blue{
+        font-size: 16px;
+        padding: 10px 43px !important;
     }
 }
 @media only screen and (max-width:992px){
