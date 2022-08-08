@@ -585,9 +585,13 @@ padding-right: 30px;
     .header-btn {
         margin-left: 0;
     }
+    #mobile_menu {
+        padding: 0 30px;
+    }
     #mobile_menu .menu-item a{
         color: #454545;
         font-size: 16px;
+        padding: 10px 0;
     }
     #mobile_site_logo {
         filter: invert(1);
