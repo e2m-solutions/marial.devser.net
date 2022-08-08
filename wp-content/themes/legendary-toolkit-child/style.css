@@ -568,7 +568,7 @@ body:not(.home) #content {
     line-height: 100px;
     text-align: center;
     border-radius: 100%;
-    background: transparent;
+    background: #fff;
     color: #fff;
     display: inline-block;
     text-align: center;
@@ -776,6 +776,7 @@ body:not(.home) #content {
     .video {
         width: 70px;
         height: 70px;
+        line-height: 70px;
     }
     .video img{
         width: 22px;
