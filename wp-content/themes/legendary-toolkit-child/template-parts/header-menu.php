@@ -19,7 +19,9 @@ $mobile_menu_bottom_content = legendary_toolkit_get_theme_option('mobile_menu_bo
                 <?php } else { 
                     $header_logo = get_field('header_logo', 'option'); ?>
                     <div class="navbar-brand">
+                    <a href="<?=esc_url( home_url( '/' )); ?>">
                        <img src="<?php echo $header_logo['url']  ?>" alt="<?php echo $header_logo['url']  ?>">
+                    </a>
                     </div>
 
               <?php } ?>
