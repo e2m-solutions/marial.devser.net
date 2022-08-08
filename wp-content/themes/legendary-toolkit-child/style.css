@@ -282,8 +282,8 @@ a:hover{
     line-height: 18px !important;
 }
 .page-template-home-page-template #menu-header-menu .header-btn a:hover{
-    border: solid 1px #1A1E31;
-    background-color: #1A1E31 !important;
+    border: solid 1px var(--secondary_color);
+    background-color: var(--secondary_color) !important;
     color: #fff !important;
 
 }
