@@ -757,6 +757,15 @@ body:not(.home) #content {
     .testimonial-title h2 {
         margin-bottom: 40px;
     } 
+    .waves-block {
+        position: absolute;
+        right: 33px;
+        top: 67%;
+    }
+    .waves {
+        width: 150px;
+        height: 150px;
+    }
 }
 @media only screen and (max-width:1024px){
     .container{
@@ -1019,5 +1028,14 @@ body:not(.home) #content {
     .about-top-wrap {
         padding-top: 40px;
         padding-bottom: 50px;
+    }
+    .waves-block {
+        position: absolute;
+        right: 24px;
+        top: 64%;
+    }
+    .waves {
+        width: 130px;
+        height: 130px;
     }
 }
