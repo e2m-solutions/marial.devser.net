@@ -12,7 +12,7 @@ jQuery(document).ready(function () {
       // fancybox-js
       jQuery('.play-button a').fancybox({
         caption : function( instance, item ) {
-          return $(this).parent().find('.card-text').html();
+          return jQuery(this).parent().find('.card-text').html();
         }
       });
 });
