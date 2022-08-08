@@ -259,6 +259,12 @@ a:hover{
     line-height: 18px !important;
 
 }
+#menu-header-menu .header-btn a:hover{
+    background-color: transparent;
+    border: solid 1px #454545;
+    color: #454545;
+
+}
 
 .page-template-home-page-template #menu-header-menu .header-btn a{
     background-color: transparent;
