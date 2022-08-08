@@ -11,7 +11,6 @@ $mobile_menu_bottom_content = legendary_toolkit_get_theme_option('mobile_menu_bo
 
 <header id="masthead" class="site-header navbar-static-top <?=$header_behavior_class;?> <?=$transparent_class;?>" role="banner">
     <div class="container-fluid">
-        <?php if( is_page_template('page-templates/home-page-template.php')) {?>
             <nav class="navbar navbar-expand-xl p-0">
                 <div class="navbar-brand">
                     <?php get_template_part('template-parts/header', 'logo', ['id' => 'site_logo']);?>
@@ -59,55 +58,5 @@ $mobile_menu_bottom_content = legendary_toolkit_get_theme_option('mobile_menu_bo
                     </div>
                 </slide-drawer>
             </nav>
-        <?php } else{ ?>
-            <nav class="navbar navbar-expand-xl p-0">
-                <div class="navbar-brand">
-                    <?php get_template_part('template-parts/header', 'logo', ['id' => 'site_logo']);?>
-                </div>
-                <?php
-                    // Desktop Menu
-                    wp_nav_menu(
-                        array(
-                            'theme_location'    => 'secondary',
-                            'container'         => 'div',
-                            'container_id'      => 'main-nav',
-                            'container_class'   => 'collapse navbar-collapse justify-content-end',
-                            'menu_id'           => false,
-                            'menu_class'        => 'navbar-nav',
-                            'depth'             => 10,
-                            'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
-                            'walker'            => new wp_bootstrap_navwalker()
-                        )
-                    );
-                ?>
-                <!-- Mobile Menu -->
-                <slide-drawer width="<?=$mobile_menu_width;?>" overlayOpacity=".7" mobileWidth="<?=$mobile_menu_width;?>" mobileBreak="<?=$mobile_menu_breakpoint;?>" <?=$mobile_menu_position;?>>
-                    <div id="menu-wrapper" style="display:none";>
-                        <div id="menu_top">
-                            <?php get_template_part('template-parts/header', 'logo', ['id' => 'mobile_site_logo']);?>
-                            <div id="mobile-menu-top-content">
-                                <?php echo wpautop($mobile_menu_top_content);?>
-                            </div>
-                        </div>
-                        <?php
-                            wp_nav_menu(
-                                array(
-                                'theme_location'    => 'secondary',
-                                'container'         => false,
-                                'menu_id'           => 'mobile_menu',
-                                )
-                            );
-                        ?>
-                        
-                        <div id="mobile_menu_bottom">
-                            <div id="mobile-menu-bottom-content">
-                                <?php echo wpautop($mobile_menu_bottom_content);?>
-                            </div>
-                        </div>
-                    </div>
-                </slide-drawer>
-            </nav>
-
-      <?php  } ?>
     </div>
 </header><!-- #masthead -->
