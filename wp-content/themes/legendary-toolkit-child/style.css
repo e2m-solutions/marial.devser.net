@@ -221,7 +221,7 @@ a:hover{
     border: solid 1px #ffff;
     font-weight: 600;
     border-radius: 4px;
-    font-family: 'Montserrat', sans-serif !important;
+    font-family: 'Poppins', sans-serif;
 }
 .btn-white:hover, .btn-transparent:hover{
     background:#1A1E31;
@@ -237,7 +237,7 @@ a:hover{
     border: solid 1px #1A1E31;
     font-weight: 600;
     border-radius: 4px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .btn-blue:hover{
     background: #fff;
@@ -302,7 +302,7 @@ a:hover{
 }
 .cta-title h3{
     color: #ffff;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin-bottom: 60px;
 }
 .cta-content{
