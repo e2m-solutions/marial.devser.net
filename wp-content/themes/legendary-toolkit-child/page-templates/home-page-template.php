@@ -61,11 +61,20 @@
                     ?>
 
                     <div class="play-button">
-                        <?php $play_button = get_field('play_button');
-                        if($play_button){ ?>
-                        <a data-fancybox href="https://www.youtube.com/watch?v=nWwpyclIEu4&t=2s"> <img src="<?php echo $play_button['url']; ?>" alt="<?php echo $play_button['alt']; ?>"></a>
-                        <?php  }
-                        ?>
+                            <div class="video-main">
+                                <div class="promo-video">
+                                    <div class="waves-block">
+                                        <div class="waves wave-1"></div>
+                                        <div class="waves wave-2"></div>
+                                        <div class="waves wave-3"></div>
+                                    </div>
+                                </div>
+                            <?php $play_button = get_field('play_button');
+                            if($play_button){ ?>
+                            <a data-fancybox href="https://www.youtube.com/watch?v=nWwpyclIEu4&t=2s"> <img src="<?php echo $play_button['url']; ?>" alt="<?php echo $play_button['alt']; ?>"></a>
+                            <?php  }
+                            ?>
+                              </div>
                     </div>
             </div>
             <div class="mariel-content">
