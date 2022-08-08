@@ -12,9 +12,17 @@ $mobile_menu_bottom_content = legendary_toolkit_get_theme_option('mobile_menu_bo
 <header id="masthead" class="site-header navbar-static-top <?=$header_behavior_class;?> <?=$transparent_class;?>" role="banner">
     <div class="container-fluid">
             <nav class="navbar navbar-expand-xl p-0">
-                <div class="navbar-brand">
-                    <?php get_template_part('template-parts/header', 'logo', ['id' => 'site_logo']);?>
-                </div>
+                <?php if(is_page_template('page-templates/home-page-template.php')){ ?>
+                    <div class="navbar-brand">
+                        <?php get_template_part('template-parts/header', 'logo', ['id' => 'site_logo']);?>
+                    </div>
+                <?php } else { 
+                    $header_logo = get_field('header_logo', 'option'); ?>
+                    <div class="navbar-brand">
+                       <img src="<?php echo $header_logo['url']  ?>" alt="<?php echo $header_logo['url']  ?>">
+                    </div>
+
+              <?php } ?>
                 <?php
                     // Desktop Menu
                     wp_nav_menu(
