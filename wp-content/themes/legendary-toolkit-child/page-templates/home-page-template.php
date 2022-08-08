@@ -60,22 +60,18 @@
                     <?php  }
                     ?>
 
-                    <div class="play-button">
-                        <div class="video-main">
-                            <div class="promo-video">
-                                <div class="waves-block">
-                                    <div class="waves wave-1"></div>
-                                    <div class="waves wave-2"></div>
-                                    <div class="waves wave-3"></div>
-                                </div>
-                            </div>
-                            <?php $play_button = get_field('play_button');
-                            if($play_button){ ?>
-                            <a data-fancybox href="https://www.youtube.com/watch?v=nWwpyclIEu4&t=2s"> <img src="<?php echo $play_button['url']; ?>" alt="<?php echo $play_button['alt']; ?>"></a>
-                            <?php  }
-                            ?>
-                        </div>
-                    </div>
+<div class="wrapper">
+  <div class="video-main">
+    <div class="promo-video">
+      <div class="waves-block">
+        <div class="waves wave-1"></div>
+        <div class="waves wave-2"></div>
+        <div class="waves wave-3"></div>
+      </div>
+    </div>
+    <a href="https://www.youtube.com/watch?v=BqI0Q7e4kbk" class="video video-popup mfp-iframe" data-lity><i class="fa fa-play"></i></a>
+  </div>
+</div>
             </div>
             <div class="mariel-content">
                 <div class="mariel-all-content">
