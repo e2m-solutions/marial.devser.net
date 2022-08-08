@@ -500,6 +500,12 @@ padding-right: 30px;
     position: relative;
     z-index: 2;
 }
+#mobile_menu .menu-item a{
+    color: #454545;
+}
+#mobile_site_logo {
+    filter: invert(1);
+}
 
 
 /* RESPONSIVE START HERE */
@@ -581,6 +587,9 @@ padding-right: 30px;
     }
     .testimonial_content p {
         font-size: 24px;
+    }
+    .header-btn {
+        margin-left: 0;
     }
 }
 @media only screen and (max-width:1024px){
