@@ -63,7 +63,7 @@
                     <div class="play-button">
                         <?php $play_button = get_field('play_button');
                         if($play_button){ ?>
-                        <a href=""> <img src="<?php echo $play_button['url']; ?>" alt="<?php echo $play_button['alt']; ?>"></a>
+                        <a data-fancybox href="https://www.youtube.com/watch?v=nWwpyclIEu4&t=2s"> <img src="<?php echo $play_button['url']; ?>" alt="<?php echo $play_button['alt']; ?>"></a>
                         <?php  }
                         ?>
                     </div>
