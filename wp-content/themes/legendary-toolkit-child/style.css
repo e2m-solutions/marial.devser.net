@@ -565,7 +565,7 @@ body:not(.home) #content {
     background: transparent;
     color: #fff;
     display: inline-block;
-    background: #000000;
+    background: #fff;
     z-index: 999;
   }
   
@@ -596,7 +596,7 @@ body:not(.home) #content {
     position: absolute;
     width: 150px;
     height: 150px;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(255, 255, 255, 0.3);
     opacity: 0;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     border-radius: 100%;
