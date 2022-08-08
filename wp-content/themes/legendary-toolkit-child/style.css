@@ -669,7 +669,6 @@ body:not(.home) #content {
         padding-right: 0;
     }
     .meet-mariel-left-content{
-        padding-bottom: 0 !important;
         padding-top: 0 !important;
     }
     .signature-img {
@@ -770,6 +769,9 @@ body:not(.home) #content {
     .meet-mariel-img {
         padding-bottom: 25px !important;
         padding-top: 30px !important;
+    }
+    .meet-mariel-left-content{
+        padding-bottom: 0 !important;
     }
 }
 @media only screen and (max-width:640px){
