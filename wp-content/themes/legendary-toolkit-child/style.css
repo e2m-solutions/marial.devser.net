@@ -176,7 +176,7 @@ a:hover{
 .hero-sub-title span {
     color: #ffff;
     text-transform: uppercase;
-    font-family: 'popins', sans-serif !important;
+    font-family: 'Poppins', sans-serif;
 }
 .hero-title{
     max-width: 1247px;
