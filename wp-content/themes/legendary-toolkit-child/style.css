@@ -129,9 +129,6 @@ a:hover{
 .page-template-home-page-template #masthead {
     background: transparent !important;
     width: 100%;
-    top: 32px;
-    position: fixed;
-    z-index: 5;
 }
 #masthead #site_logo {
     max-width: 263px;
