@@ -808,8 +808,8 @@ body:not(.home) #content {
 }
 @media only screen and (max-width:992px){
     .cta-section:before {
-        width: 290px;
-        height: 290px;
+        width: 330px;
+        height: 330px;
         background-size: contain;
     }
 }
