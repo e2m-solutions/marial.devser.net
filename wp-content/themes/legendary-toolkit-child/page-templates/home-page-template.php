@@ -145,18 +145,22 @@
 </section>
 <section class="testimonial-section">
     <div class="container">
+        <div class="testimonial-title">
+        <div class="testimonial-title">
+            <?php $testimonial_title = get_field('testimonial_title');
+                if($testimonial_title){ ?>
+                    <h2><?php echo $testimonial_title; ?></h1>
+                <?php  }
+            ?>
+        </div>
         <div class="testimonial-wrap text-center">
             
             <?php if(have_rows('testimonial_repeater')) {
                 while(have_rows('testimonial_repeater')){
                     the_row();
-                    $testimonial_title = get_sub_field('testimonial_title');
                     $testimonial_content = get_sub_field('testimonial_content');
                     $testimonial_author = get_sub_field('testimonial_author'); ?>
                     <div class="testimonial">
-                        <div class="testimonial-title">
-                            <h2><?php echo $testimonial_title ?></h2>
-                        </div>
                         <div class="testimonial_content">
                             <?php echo $testimonial_content ?>
                         </div>
