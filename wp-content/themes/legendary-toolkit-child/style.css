@@ -605,7 +605,7 @@ padding-right: 30px;
         font-weight: 600 !important;
     }
     .header-btn a:hover{
-    background: #1A1E31;
+    background: #1A1E31 !important;
     color: #ffff !important;
     border: solid 1px #1A1E31;
     }
