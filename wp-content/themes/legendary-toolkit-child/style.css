@@ -154,10 +154,6 @@ a:hover{
     color: #455775 !important;
 } */
 
-.container-fluid{
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-}
 .hero-section{
     width: 100%;
     background-repeat: no-repeat;
@@ -165,6 +161,10 @@ a:hover{
    padding: 200px 0 150px;
    display: flex;
    align-items: center;
+}
+.container-fluid{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
 .hero-sub-title {
     position: relative;
