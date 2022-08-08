@@ -878,6 +878,9 @@ body:not(.home) #content {
     .testimonial-title h2 {
         margin-bottom: 30px;
     } 
+    .footer-logo {
+        max-width: 170px;
+    }
    
 }
 @media only screen and (max-width:640px){
