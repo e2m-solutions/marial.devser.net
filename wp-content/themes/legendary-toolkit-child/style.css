@@ -773,6 +773,7 @@ body:not(.home) #content {
     .meet-mariel-left-content{
         padding-bottom: 0 !important;
     }
+   
 }
 @media only screen and (max-width:640px){
     .container{
@@ -847,6 +848,9 @@ body:not(.home) #content {
     }
     .connection-button {
         text-align: left;
+    }
+    .signature-img img {
+        max-width: 110px;
     }
 }
 @media only screen and (max-width:580px){
