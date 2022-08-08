@@ -371,7 +371,7 @@ z-index: -1;
 .play-button {
     position: absolute;
     top: 50%;
-    right: -88px;
+    right: -43px;
     transform: translateY(-50%);
 }
 .mariel-title h2 {
@@ -563,17 +563,21 @@ body:not(.home) #content {
   }
   
   .video {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
     text-align: center;
     border-radius: 100%;
     background: transparent;
     color: #fff;
     display: inline-block;
+    text-align: center;
     z-index: 999;
   }
   .waves-block {
     position: absolute;
-    right: 42px;
-    top: 70%;
+    right: 0px;
+    top: 99%;
 }
   
   @keyframes waves {
@@ -768,6 +772,13 @@ body:not(.home) #content {
     .waves {
         width: 150px;
         height: 150px;
+    }
+    .video {
+        width: 70px;
+        height: 70px;
+    }
+    .video img{
+        width: 22px;
     }
 }
 @media only screen and (max-width:1024px){
