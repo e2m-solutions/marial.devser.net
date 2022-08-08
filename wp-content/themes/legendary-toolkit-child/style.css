@@ -937,9 +937,11 @@ body:not(.home) #content {
     }
     .mariel-content {
         border: solid 8px #ffff;
-        width: 100%;
-      padding: 30px;
-        margin-top: 40px;
+        width: 90%;
+        padding: 30px;
+        position: relative;
+        margin: -50px auto 0;
+        z-index: 3;
     }
     .mariel-all-content {
         width: 100%;
@@ -1023,9 +1025,6 @@ body:not(.home) #content {
     }
     .connection-section {
         padding: 40px 0 40px;
-    }
-    .mariel-content {
-        margin-top: 30px;
     }
    
     .hero-btn {
