@@ -656,6 +656,13 @@ body:not(.home) #content {
     .meet-mariel-left-content {
         padding-right: 80px;
     }
+    .meet-mariel-section {
+        padding-top: 120px;
+    }
+    .connection-section {
+        width: 100%;
+        padding: 140px 0 140px;
+    }
 }
 @media only screen and (max-width:1199px){
     .container{
@@ -680,7 +687,7 @@ body:not(.home) #content {
         margin-top: 40px;
     }
     .meet-mariel-section {
-        padding-top: 120px;
+        padding-top: 100px;
     }
     .play-button img {
         width: 115px;
@@ -1028,9 +1035,6 @@ body:not(.home) #content {
         height: 190px;
         background-size: contain;
     }
-    .play-button img {
-        width: 80px;
-    }
     .hero-btn {
         margin-top: 10px;
     }
@@ -1053,11 +1057,16 @@ body:not(.home) #content {
     }
     .waves-block {
         position: absolute;
-        right: 24px;
-        top: 64%;
+        right: 16px;
+        top: 76%;
     }
     .waves {
         width: 130px;
         height: 130px;
+    }
+    .video {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
     }
 }
