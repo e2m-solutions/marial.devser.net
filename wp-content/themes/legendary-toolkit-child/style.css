@@ -826,7 +826,7 @@ body:not(.home) #content {
 @media only screen and (max-width:992px){
     .cta-section:before {
         width: 30vw;
-        height: 350;
+        height: 350px;
         background-size: contain;
     }
 }
@@ -974,7 +974,7 @@ body:not(.home) #content {
         max-width: 110px !important;
     }
     .cta-section:before {
-        height: 250;
+        height: 250px;
     }
 }
 @media only screen and (max-width:580px){
