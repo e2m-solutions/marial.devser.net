@@ -542,6 +542,9 @@ padding-right: 30px;
     font-weight: 600;
     color: #353535;
 }
+body:not(.home) #content {
+    padding-top: 0 !important;
+}
 
 
 /* RESPONSIVE START HERE */
@@ -667,6 +670,9 @@ padding-right: 30px;
     }
     .meet-mariel-left-content{
         padding-bottom: 0 !important;
+    }
+    .signature-img {
+        margin-top: 15px;
     }
 }
 @media only screen and (max-width:1024px){
