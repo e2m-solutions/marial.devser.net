@@ -825,8 +825,7 @@ body:not(.home) #content {
 }
 @media only screen and (max-width:992px){
     .cta-section:before {
-        width: 330px;
-        height: 330px;
+        width: 30vw;
         background-size: contain;
     }
 }
@@ -870,11 +869,7 @@ body:not(.home) #content {
     .cta-section {
         padding: 50px 0;
     }
-    .cta-section:before {
-        width: 250px;
-        height: 250px;
-        background-size: cover;
-    }
+   
     .site-footer p {
         font-size: 16px;
     }
@@ -1028,11 +1023,7 @@ body:not(.home) #content {
     .mariel-content {
         margin-top: 30px;
     }
-    .cta-section:before {
-        width: 190px;
-        height: 190px;
-        background-size: contain;
-    }
+   
     .hero-btn {
         margin-top: 10px;
     }
