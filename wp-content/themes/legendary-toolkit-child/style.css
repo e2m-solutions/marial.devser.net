@@ -249,7 +249,7 @@ a:hover{
 }
 #menu-header-menu .header-btn a{
     background-color: #1A1E31;
-    color: #fff !important;
+    color: #fff ;
     border: solid 1px #1A1E31;
     padding: 11px 43px !important;
     text-transform: uppercase !important;
@@ -262,7 +262,7 @@ a:hover{
 #menu-header-menu .header-btn a:hover{
     background-color: transparent;
     border: solid 1px #454545;
-    color: #454545;
+    color: #454545 !important;
 
 }
 
