@@ -650,9 +650,23 @@ padding-right: 30px;
         font-weight: 600 !important;
     }
     .header-btn a:hover{
-    background: #1A1E31 !important;
-    color: #ffff !important;
-    border: solid 1px #1A1E31;
+        background: #1A1E31 !important;
+        color: #ffff !important;
+        border: solid 1px #1A1E31;
+    }
+    .about-top-wrap {
+        padding-top: 70px;
+        padding-bottom: 100px;
+    }
+    
+    .meet-mariel-left-content h2 {
+        margin-bottom: 30px;
+    }
+    .meet-mariel-left-content {
+        padding-right: 0;
+    }
+    .meet-mariel-left-content{
+        padding-bottom: 0;
     }
 }
 @media only screen and (max-width:1024px){
