@@ -145,8 +145,7 @@
 </section>
 <section class="testimonial-section">
     <div class="container">
-        <div class="testimonial-title">
-        <div class="testimonial-title">
+        <div class="testimonial-title text-center">
             <?php $testimonial_title = get_field('testimonial_title');
                 if($testimonial_title){ ?>
                     <h2><?php echo $testimonial_title; ?></h1>
