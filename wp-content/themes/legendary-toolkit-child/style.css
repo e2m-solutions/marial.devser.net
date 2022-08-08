@@ -766,8 +766,8 @@ body:not(.home) #content {
     } 
     .waves-block {
         position: absolute;
-        right: 33px;
-        top: 67%;
+        right: 10px;
+        top: 85%;
     }
     .waves {
         width: 150px;
