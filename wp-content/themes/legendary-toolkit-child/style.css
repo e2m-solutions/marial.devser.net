@@ -249,7 +249,7 @@ a:hover{
 }
 #menu-header-menu .header-btn a{
     background-color: #1A1E31;
-    color: #fff ;
+    color: #fff !important;
     border: solid 1px #1A1E31;
     padding: 11px 43px !important;
     text-transform: uppercase !important;
