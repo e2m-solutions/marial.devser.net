@@ -128,7 +128,7 @@ a:hover{
     margin: 0 auto;
     padding: 0 50px !important;
 }
-#masthead {
+.page-template-home-page-template #masthead {
     background: transparent !important;
     width: 100%;
     top: 32px;
@@ -499,6 +499,9 @@ padding-right: 30px;
 .cta-content-wrap{
     position: relative;
     z-index: 2;
+}
+#masthead {
+    background: #D7CEC4 !important;
 }
 
 
