@@ -130,7 +130,7 @@ a:hover{
     background: transparent !important;
     width: 100%;
 }
-body .sticky_header.is-stuck{
+.page-template-home-page-template #masthead.is-stuck{
     background: rgba(0, 0, 0, 1) !important;
 }
 #masthead #site_logo {
@@ -176,7 +176,7 @@ body .sticky_header.is-stuck{
 .hero-sub-title span {
     color: #ffff;
     text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif !important;
+    font-family: 'popins', sans-serif !important;
 }
 .hero-title{
     max-width: 1247px;
