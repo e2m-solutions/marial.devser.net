@@ -440,6 +440,7 @@ padding-right: 30px;
 .testimonial-title h2 {
     color: #353535;
     font-weight: 600;
+    margin-bottom: 65px;
 } 
 .testimonial_content p{
     max-width: 1166px !important;
@@ -674,6 +675,9 @@ body:not(.home) #content {
     .signature-img {
         margin-top: 15px;
     }
+    .testimonial-title h2 {
+        margin-bottom: 40px;
+    } 
 }
 @media only screen and (max-width:1024px){
     .container{
@@ -707,6 +711,9 @@ body:not(.home) #content {
     .meet-mariel-img img {
         border: solid 6px #fff;
     }
+    .testimonial-title h2 {
+        margin-bottom: 30px;
+    } 
 }
 @media only screen and (max-width:992px){
 
@@ -773,6 +780,9 @@ body:not(.home) #content {
     .meet-mariel-left-content{
         padding-bottom: 0 !important;
     }
+    .testimonial-title h2 {
+        margin-bottom: 30px;
+    } 
    
 }
 @media only screen and (max-width:640px){
