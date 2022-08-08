@@ -130,8 +130,8 @@ a:hover{
     background: transparent !important;
     width: 100%;
 }
-.sticky_header.is-stuck{
-    background: rgba(0, 0, 0, 0.7) !important;
+body .sticky_header.is-stuck{
+    background: rgba(0, 0, 0, 1) !important;
 }
 #masthead #site_logo {
     max-width: 263px;
