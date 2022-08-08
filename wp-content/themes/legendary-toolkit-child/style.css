@@ -321,6 +321,9 @@ a:hover{
 #footer {
     padding: 55px 0 35px;
 }
+.site-footer a{
+    color: #455775;
+}
 .meet-mariel-section{
     padding-top: 220px;
 }
